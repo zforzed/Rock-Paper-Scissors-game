@@ -1,0 +1,14 @@
+body {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-color: rgb(200, 212, 223);
+   color: rgb(66, 66, 66);
+   text-align: center;
+}
+
+.win {
+   color: green;
+}
+
+.lose {
+   color: red;
+}

@@ -1,8 +1,22 @@
 body {
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-family: Verdana, sans-serif;
    background-color: rgb(200, 212, 223);
    color: rgb(66, 66, 66);
    text-align: center;
+}
+.container {
+   margin-top: 10vw;
+}
+h1 {
+   color: #2d2e33;
+}
+button {
+   font-size: 15px;
+   width: 5vw;
+   height: 5vh;
+   border: none;
+   border-radius: 5px;
+   margin: 2px;
 }
 
 .win {
@@ -11,4 +25,25 @@ body {
 
 .lose {
    color: red;
+}
+
+.score {
+   font: bold 20px "Verdana", sand-serif;
+   background-color: bisque;
+   border-radius: 20px;   
+   width: 30vw;
+   margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   /* justify-content: space-around; */
+   /* align-items: center;    */
+}
+.scores {
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+}
+.hidden {
+   display: none;
 }

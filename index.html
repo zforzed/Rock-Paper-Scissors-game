@@ -11,10 +11,27 @@
    <div class="container">
       <h1>Rock Paper Scissors Game</h1>
       <h3>Your choice:</h3>
-      <input type="text" id="playerInput">
-      <button onclick="whoWins()">Play</button>
+      <button>Rock</button>
+      <button>Paper</button>
+      <button>Scissors</button>
       <h3 id="computerChoice">Computer choice is:</h3>
-      <p id="result">Who wins?</p>
+      <p id="result">Press button to know who wins</p>      
+   </div>
+   <div class="score">
+      <div class="scores">
+         <div>
+            <p>Player</p>
+            <p id="player-score">0</p>
+         </div>
+         <div>
+            <p>Computer</p>
+            <p id="computer-score">0</p>
+         </div>
+      </div>
+      <div class="pop-up hidden">
+         <p id="finished-game"></p>
+         <button id="new-game-button">Start new game</button>
+      </div>
    </div>
 <script src="index.js"></script>
 </body>
